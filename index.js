@@ -1,11 +1,15 @@
 
 function fun1(){
-    var inp=document.getElementById("fname").value
+    var inps=document.getElementById("fname").value
 
+    var inp=inps.toLowerCase()
+     
     function talk(i){
         let utterance = new SpeechSynthesisUtterance(i);
         speechSynthesis.speak(utterance);
+        
     }
+
 
 
     if("hello" == inp){
