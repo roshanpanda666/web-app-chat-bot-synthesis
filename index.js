@@ -50,8 +50,8 @@ function fun1(){
     }
 
     else if("who is elon musk" == inp){
-        document.querySelector("h1").innerHTML="Elon musk is the richest person on the earth and he is a badass,real life iron man"
-        talk("Elon musk is the richest person on the earth, and yes, he is a badas,real life, iron man")
+        document.querySelector("h1").innerHTML="Elon musk is the richest person on the earth and he is a bad ass,real life iron man"
+        talk("Elon musk is the richest person on the earth, and yes, he is a bad ass,real life, iron man")
 
     }
     else if("fuck you" == inp){
